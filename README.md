@@ -207,3 +207,10 @@ rm $HOME/namada -rf
 rm $HOME/tendermint -rf
 rm $HOME/cometbft -rf
 ```
+### eşleşmesse addrbook eklemeyi deneyelim.
+
+sudo systemctl stop namadad
+
+wget -O $HOME/.local/share/namada/public-testnet-10.3718993c3648/cometbft/config/addrbook.json https://raw.githubusercontent.com//addrbook.json
+
+sudo systemctl start namadad
