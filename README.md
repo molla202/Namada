@@ -211,6 +211,6 @@ rm $HOME/cometbft -rf
 
 sudo systemctl stop namadad
 
-wget -O $HOME/.local/share/namada/public-testnet-10.3718993c3648/cometbft/config/addrbook.json https://raw.githubusercontent.com//addrbook.json
+wget -O $HOME/.local/share/namada/public-testnet-10.3718993c3648/cometbft/config/addrbook.json https://raw.githubusercontent.com/molla202/Namada/main/addrbook.json
 
 sudo systemctl start namadad
