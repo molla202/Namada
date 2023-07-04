@@ -191,7 +191,7 @@ namada client bond \
   ```
 ## Grafana prometeus kurulumu
 * Not: herhangi bir proje varsa kurulumu engeller o yuzden temiz sunucu lazım.
-  ```
+```
 cd $HOME && wget -q -O grafana.sh https://raw.githubusercontent.com/systemd-run/manuals/main/namada/grafana.sh && chmod +x grafana.sh && ./grafana.sh
 
 
