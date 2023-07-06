@@ -30,6 +30,7 @@ sudo apt install uidmap dbus-user-session protobuf-compiler unzip -y
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
+Not: > böle dicek 1 diceniz kurcanız
 ```
 source $HOME/.cargo/env
 ```
